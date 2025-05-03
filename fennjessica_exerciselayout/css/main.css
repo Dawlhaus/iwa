@@ -1,0 +1,70 @@
+/* Alternative CSS box model */
+* {
+  box-sizing: border-box;
+}
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: antiquewhite;
+}
+#wrapper {
+  width: 85%;
+  border: 1px dashed #333;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  text-shadow: 5px 5px 5px brown;
+  width: 18.75rem;
+  padding: 1.25rem;
+  border: 6px solid #333;
+  margin: auto;
+  border-radius: 10px;
+}
+h2 {
+  color: #333;
+  text-shadow: 5px 5px 5px brown;
+  background-color: bisque;
+}
+h3 {
+  color: #333;
+  text-shadow: 5px 5px 5px brown;
+  background-color: bisque;
+}
+p {
+  line-height: 1.5;
+  color: #333;
+}
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+a:hover {
+  color: blue;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+/* List Styles */
+ul {
+  list-style-type: none;
+  border: 1px solid #333;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 1rem;
+}
+li {
+  display: table;
+  border: 1px solid;
+}
